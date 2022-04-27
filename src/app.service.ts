@@ -23,7 +23,7 @@ export class AppService implements OnApplicationBootstrap {
       await this.connection.synchronize();
       await this.entityManager.save(
         Record,
-        { title: 'Hello world', desc: 'This app is just a placeholder for curious folk, create real recipes and examples at app.zerops.com' }
+        { title: 'Hello world', desc: 'This app is just a placeholder for curious folk, create real recipes and examples at <a class="__link" href="https://app.zerops.io/">app.zerops.io</a>' }
       );
       console.log('Done ✅');
     }
