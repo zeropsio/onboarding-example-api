@@ -1,2 +1,2 @@
-# Zerops Nest.js API with PostgreSQL recipe
-Simple CRUD Nest.js application utilising TypeORM for PostgreSQL database connection.
+# Zerops Nest.js API with PostgreSQL
+Onboarding example Nest.js application utilising TypeORM for PostgreSQL database connection.
